@@ -1,0 +1,185 @@
+Ctrl+Shift+P: 打开命令面板
+Ctrl+Alt+P: 打开项目切换面板
+Ctrl+P: 打开文件切换面板
+Ctrl+`: 打开控制台
+Ctrl+N: 新建文件
+Ctrl+Shift+N: 新建窗口
+Ctrl+Shift+T: 打开最后关闭的文件
+Ctrl+O: 打开文件
+Ctrl+S: 保存文件
+*Ctrl+Shift+S: 另存文件（建议：保存所有文件）
+Ctrl+W: 关闭文件
+*Ctrl+Shift+W: 关闭窗口（建议：关闭所有文件）
+Ctrl+K,Ctrl+B: 开关侧栏
+F11: 全屏
+Shift+F11: 全屏免打扰模式（只显示当前编辑文件）
+Alt+Shift+Num: 分屏显示共Num个窗口
+Alt+Num: 切换第Num个索引（默认文件）
+Ctrl+Tab: 按文件浏览顺序切换文件
+Ctrl+[PageUp,PageDown]: 切换上/下个文件
+Ctrl+K,Ctrl+Up: 当前文件至分割窗口
+Ctrl+K,Ctrl+Shift+Up: 新建文件至分割窗口
+Ctrl+K,Ctrl+Down: 合并分割窗口
+Ctrl+K,Ctrl+[Left,Right]: 焦点移动到上/下个窗口
+Ctrl+K,Ctrl+Shift+[Left,Right]: 当前文件移动到上/下个窗口
+
+1.2. 移动定位
+Ctrl+P,#或Ctrl+;: 定位关键词
+Ctrl+P,:或Ctrl+G: 定位行
+Ctrl+P,@或Ctrl+R: 定位函数
+Ctrl+Shift+R: 定位函数从项目
+[Home,End]: 行首/行尾
+Ctrl+[Home,End]: 页首/页尾
+Ctrl+M: 跳转至对应的括号
+Ctrl+[Left,Right]: 跳转至上/下一个词
+Alt+[Left,Right]: 跳转至上/下一个子词（区分大小写）
+Alt+-: 跳转至上一个光标位置
+Alt+Shift+-: 跳转至下一个光标位置
+Ctrl+[Up,Down]: 屏幕按行上/下滚动
+
+1.3. 选择
+Shift+[Home,End]: 选择到行首行尾
+Ctrl+Shift+[Home,End]: 选择到页首页尾
+Ctrl+Shift+J: 选择当前缩进内容
+Ctrl+Shift+M: 选择括号内的内容（重复选择括号）
+Alt+F3: 选择所有相同的词
+Ctrl+D: 选择词 (重复按下多重选择可同步修改)
+Ctrl+K,Ctrl+D: 跳过当前选择词
+Ctrl+Shift+[Left,Right]: 选择并跳转至上/下一个词
+Alt+Shift+[Left,Right]: 选择并跳转至上/下一个子词（区分大小写）
+Ctrl+L: 选择行（重复按下将下一行加入选择）
+
+1.4. 编辑
+Ctrl+Z: 恢复
+*Ctrl+Shift+Z: 重做（建议：Ctrl+Alt+Z）
+Ctrl+Y: 重做或重复
+Ctrl+U: 软撤销（可撤销光标移动）
+Ctrl+Shift+U: 软重做（可重做光标移动）
+Ctrl+C或Ctrl+Insert: 复制
+Ctrl+X或Shift+Delete: 剪切
+Ctrl+V或Shift+Insert: 粘贴
+Ctrl+Shift+V: 粘贴并格式化
+Ctrl+K,Ctrl+V: 粘贴从历史记录
+Tab: 光标后缩进
+Shift+Tab: 行首反缩进
+Ctrl+]: 行缩进
+Ctrl+[: 行反缩进
+Ctrl+J: 合并行
+Alt+Q: 自动换行
+Ctrl+Shift+D: 复制行（如果已经选择词，则复制此词）
+Ctrl+Shift+[Up,Down]: 移动光标所在行与上/下行互换
+Ctrl+Enter: 在当前行后插入新行
+Ctrl+Shift+Enter: 在当前行前插入新行
+Ctrl+Shift+K: 删除光标所在行
+F9: 行排序（大小写不敏感）
+Ctrl+F9: 行排序（大小写敏感）
+Ctrl+K,Ctrl+K: 从光标处删除至行尾
+Ctrl+K,Ctrl+Backspace: 从光标处删除至行首
+Ctrl+T: 选中词互换（选择后按Ctrl增加选择区）
+Ctrl+K,Ctrl+U: 词改为大写（未选择为本行）
+Ctrl+K,Ctrl+L: 词改为小写（未选择为本行）
+
+1.5. 查找/替换
+Ctrl+F: 查找
+Ctrl+H: 查找替换
+Ctrl+Shift+F: 查找或替换，可选文件夹或过滤器
+*Ctrl+I: 累加查找（建议：Alt+I）
+F3: 查找下一个
+Shift+F3: 查找上一个
+
+1.6. 列模式
+鼠标中键或Shift+鼠标右键: 列模式
+Ctrl+鼠标列模式: 增加列选择
+Alt+鼠标列模式: 减少列选择
+Ctrl+Alt+[Up,Down]: 选择上/下多行列模式，光标在当前列
+Ctrl+Shift+L: 选区进入列模式，光标在行尾
+
+1.7. 书签
+Ctrl+F2: 添加/删除书签
+F2: 下一个书签
+Shift+F2: 前一个书签
+Alt+F2: 选择所有书签
+Ctrl+Shift+F2: 删除所有书签
+
+1.8. 标记
+*Ctrl+K, Ctrl+Space: 设置标记（建议：Alt+;,Alt+Space）
+*Ctrl+K, Ctrl+A: 从光标位置选择至标记（建议：Alt+;,Alt+A）
+*Ctrl+K, Ctrl+W: 从光标位置删除至标记（建议：Alt+;,Alt+W）
+*Ctrl+K, Ctrl+X: 光标位置交换标记（建议：Alt+;,Alt+X）
+*Ctrl+K, Ctrl+G: 清除标记（建议：Alt+;,Alt+G）
+
+1.9. 代码
+*Ctrl+Space: 自动完成，重复选择下一提示（建议：Alt+Space）
+Ctrl+/: 行注释
+Ctrl+Shift+/: 块注释
+Ctrl+Shift+[: 折叠当前
+Ctrl+Shift+]: 展开当前
+Ctrl+K,Ctrl+T: 折叠属性
+Ctrl+K,Ctrl+Num: 折叠Num层级
+Ctrl+K,Ctrl+0: 展开所有
+Ctrl+B或F7: 构建
+Ctrl+Shift+B: 运行
+Ctrl+Break: 执行
+
+1.10. XML/HTML
+Ctrl+Shift+A: 选择标签内的内容
+Ctrl+Shift+.: 闭合当前标签
+
+1.11. 宏
+Ctrl+Q: 开关宏记录
+*Ctrl+Shift+Q: 运行宏（建议：Ctrl+Alt+Q）
+
+1.12. 拼写检查
+F6: 开启/关闭拼写检查
+Ctrl+F6: 定位下一个拼错
+Ctrl+Shift+F6: 定位上一个拼错
+
+1.13. 自定义快捷键
+*Alt+[H,J,K,L]: 上下左右移动
+*Alt+Shift+[H,J,K,L]: 上下左右移动并选择
+*Ctrl+Alt+[J,K]: 屏幕按行上/下滚动
+*Ctrl+Alt+[H,L]: 左右移动至上/下一个词
+*Ctrl+Alt+Shift+[H,L]: 左右移动至上/下一个词并选择
+*Ctrl+=: 格式化选择行
+*Alt+;,Alt+B: 转换HTML代码段到CSDN博客格式（ToCsdnBlog）
+
+1.14. 插件"BracketHighlighter"常用快捷键
+原快捷键前缀ctrl+alt+super修改为ctrl+alt+shift
+*Ctrl+Alt+Shift+[Up, Down]: 移动到左/右括号
+*Ctrl+Alt+Shift+[Left,Right]: 如果光标紧贴属性或在属性字符串内，直接选择此属性，否则选择光标左/右侧属性
+*Ctrl+Alt+Shift+S: 选择括号内容
+*Ctrl+Alt+Shift+T: 从HTML/XML标签选择标签名称
+
+1.15. 插件"TrailingSpacer"常用快捷键
+原快捷键前缀ctrl+shift修改为ctrl+alt
+*Ctrl+Alt+T: 开关显示多余空格
+*Ctrl+Alt+D: 删除多余空格
+
+1.16. 插件"DeleteBlankLines"常用快捷键
+Ctrl+Alt+Backspace: 删除选择区域所有空行
+Ctrl+Alt+Shift+Backspace: 删除选择区域多余空行
+
+1.17. 插件"ConvertToUTF8"常用快捷键
+Ctrl+Shift+C: 转换文件到GBK
+*Ctrl+Shift+G: 转换文件到UTF-8
+
+1.18. 插件"Alignment"常用快捷键
+Ctrl+Alt+A: 以定义的符号（默认等号）为准格式化
+
+1.19. 插件"Tag"常用快捷键
+Ctrl+Alt+F: 格式化
+
+1.20. 插件"SublimeTmpl"常用快捷键
+*Ctrl+Alt+Shift+J: 新建Java模板文件
+*Ctrl+Alt+Shift+G: 新建Go模板文件
+*Ctrl+Alt+Shift+Y: 新建Python模板文件
+*Ctrl+Alt+Shift+M: 新建Markdown模板文件
+
+1.21. 插件"InsertNums"常用快捷键
+Ctrl+Alt+N: 插入序号
+注意：
+[A,B,C] 表示A,B,C可选其一；
+Num 表示阿拉伯数字;
+* 表示自定义快捷键或不符合日常习惯建议修改。
+
+-----
